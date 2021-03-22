@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js practice</title>
+    <link rel="stylesheet"
+    href="/redirect?Id=%2f3LUyFeMv%2bWjNf2pJ%2fgqJjcWdiwHc2aG7zzlg%2f5MfyvNj6xx10lsfnDn80zpO7PLs14VBVJbFEGoKybJi0GTYA%3d%3d"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+ integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+ <style>
+     .user, .computer{
+         font-size: 7rem;
+     }
+     .user{
+         margin-right: 10px;
+     }
+     .icon, .computer{
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         text-align: center;
+         
+     }
+ </style>
+</head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="column-6">
+                    <h2 class="text-center">
+                        Player
+                    </h2>
+                    <div class="d-flex flex-center align-center icon">
+                        <button class="btn btn-outline-warning user " id="scissors">✌️</button>
+                        <button class="btn btn-outline-warning user " id="rock">👊</button>
+                        <button class="btn btn-outline-warning user " id="paper">🤚</button>
+                    </div>
+                </div>
+                <div class="column-6">
+                    <h2 class="text-center">Computer</h2>
+                    <div class="d-flex align-center computer">🤚</div>
+                </div>
+            </div>
+            <div class="d-flex fustify-content-center mt-4 d-none notice">
+                <div class="alert"></div>
+            </div>
+            <div class="d-flex justify-content-center mt-4 play-again d-none">
+                <button class="btn btn-primary"> Play again</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
